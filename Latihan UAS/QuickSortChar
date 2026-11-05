@@ -1,8 +1,0 @@
-#include <stdio.h>
-
-int main(){
-    char nama[10][100] = {"Budi", "Eko", "Waseso"};
-    for(int i = 0; i < 3; i++){
-        printf("%s\n", nama[i]);c
-    }
-}
