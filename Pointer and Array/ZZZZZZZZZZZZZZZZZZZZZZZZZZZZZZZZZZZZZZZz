@@ -1,0 +1,35 @@
+#include <stdio.h>
+#include <string.h>
+int main(){
+    int testcase;
+    scanf("%d", &testcase);
+    for(int k = 0; k < testcase; k++){
+        int panjang, nafas;
+        scanf("%d %d", &panjang, &nafas);
+
+        int lorong[panjang];
+        int sisa_nafas = nafas;
+
+        for(int j = 0; j < panjang; j++){
+            scanf("%d", &lorong[j]);
+        }
+        int hidup = 0;
+            for(int i = 0; i < panjang; i++){
+                if(lorong[i] == 1){
+                    sisa_nafas = nafas;
+                }
+                else sisa_nafas--;
+
+                if(sisa_nafas < 0){
+                    hidup = 0;
+                    break;
+                }
+                else if(i == panjang - 1){
+                    hidup = 1;
+                }
+            }
+        printf("Case #%d: %d", k + 1, hidup);
+
+    }
+    return 0;
+}

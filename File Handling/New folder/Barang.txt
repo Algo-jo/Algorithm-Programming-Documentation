@@ -1,0 +1,4 @@
+1001#Indomilk 250ml#20#5000
+1020#Indomie Goreng#10#3500
+1021#Pulpen#30#12500 
+1022#Indomie Goreng Jumbo#10#4250

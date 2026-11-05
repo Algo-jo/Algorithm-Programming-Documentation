@@ -1,0 +1,18 @@
+{
+	"folders": [
+		{
+			"path": "../VSC_UTS"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "../VSC_Repetition"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"stdio.h": "c"
+		}
+	}
+}

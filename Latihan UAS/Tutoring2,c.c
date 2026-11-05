@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main(){
+    int tc;
+    int array = 0;
+    int storage[1050] = {0};
+    scanf("%d", &tc);
+    for(int i = 0; i < tc; i++){
+        scanf("%d", &array);
+        storage[array]
+    }
+
+}
